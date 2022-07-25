@@ -11,8 +11,43 @@ immutable value brackets , cannot be appened/deleted
 
 USE VIM for text editing 
 
-aCCESS LINUX OPSTATIONS 
+ACCESS LINUX OPSTATIONS 
  ssh student@10.50.40.254 -Y
  username  student
  password - SuperJcac
- Set us VIM_RC  profile for pretty colors
+ 
+ 
+ 
+Set up VIM_RC  profile for pretty colors
+vim  ~/.vimrc
+syntax enable
+set tabstop=4
+set shiftwidth=4
+set expandtab
+set number
+filetype indent on
+set autoindent
+
+ 
+ Set up code repository 
+ mkdir python 
+  change to that directory 
+  update ( ) 
+  sudo apt update ; sudo apt-get install apt-transport-https ca-certificates -y ; sudo update-ca-certificates
+  
+ then run 
+ git clone https://git.cybbh.space/programming/python/public\
+ 
+ 
+ 
+ 
+ STRING manipulation
+ my string 
+ mystring = 'this is my string'
+>>> mystring
+'this is my string'
+>>> mystring.split()
+['this', 'is', 'my', 'string']
+>>> mystring = '192.10.168.22'
+
+ 
