@@ -9,4 +9,10 @@ tuple - ()
 immutable value brackets , cannot be appened/deleted
 
 
+USE VIM for text editing 
 
+aCCESS LINUX OPSTATIONS 
+ ssh student@10.50.40.254 -Y
+ username  student
+ password - SuperJcac
+ Set us VIM_RC  profile for pretty colors
