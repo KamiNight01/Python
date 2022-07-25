@@ -1,9 +1,3 @@
-
-Python 3.8.10 (default, Jun 22 2022, 20:18:18) 
-[GCC 9.4.0] on linux
-Type "help", "copyright", "credits" or "license" for more information.
->>> 'abc' * 5
-'abcabcabcabcabc'
 >>> a = [1,2,3,4,5,6,7,8,9]
 >>> a[0]
 1
@@ -27,27 +21,11 @@ Type "help", "copyright", "credits" or "license" for more information.
 a: b:
 >>> print ('a:{} b:{}')
 a:{} b:{}
->>> print ('a:{} b:{}'.format (a,b)))
-  File "<stdin>", line 1
-    print ('a:{} b:{}'.format (a,b)))
-                                    ^
-SyntaxError: unmatched ')'
 >>> print ('a:{} b:{}'.format (a,b))
 a:5 b:6
 >>> a = 'Binding of'
 >>> b= 'Issac'
->>> print ('a:{} b:{}'.format (a,b))
-a:Binding of b:Issac
->>> print ('The{} Of{}'.format (a,b))
-TheBinding of OfIssac
->>> a = 'Binding '
->>> print ('The{} Of{}'.format (a,b))
-TheBinding  OfIssac
->>> print ('The {} Of{}'.format (a,b))
-The Binding  OfIssac
 >>> print ('The {}Of {}'.format (a,b))
 The Binding Of Issac
->>> 
-KeyboardInterrupt
->>> 
+
 
