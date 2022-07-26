@@ -45,3 +45,8 @@ for num in mylist:
 
 for x in newlist:
     print(x/3)
+    
+    num = list(range(100)
+number[1:2:3]
+#(1) where it starts, (2)where it stops and and (3)which direction it goes
+    
