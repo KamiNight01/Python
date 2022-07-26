@@ -45,3 +45,24 @@ elif fc == 2:
   print ("your Temp is: {} Degree Fahrenheit ".format(C))
 else:
     print ("please input a valid option")
+    
+    
+    
+    
+    (WHILE TRUE GUESS LOOP)
+    #!/usr/bin/env python3
+
+def guess_number(n):
+    while True:
+        x = int(input("guess a numner between1-100:"))
+        if x < 23: 
+            print("too low")
+
+        elif x > 23: 
+            print("too high")
+
+        elif x == n:
+            print("You Win")
+        pass    
+    
+guess_number(23)
