@@ -50,4 +50,108 @@ set autoindent
 ['this', 'is', 'my', 'string']
 >>> mystring = '192.10.168.22'
 
+
+
+SPLITTING & INDEXING
+>>> mystring = "this is my string"
+>>> type(mystring)
+<class 'str'>
+>>> mystring.split()
+['this', 'is', 'my', 'string']
+>>> mystring = "192.168.10.22"
+>>> mystring.split()
+['192.168.10.22']
+>>> mystring.split(".")
+['192', '168', '10', '22']
+>>> mylist = mystring.split(".")
+>>> mylist
+['192', '168', '10', '22']
+>>> ''.join(mylist)
+'1921681022'
+>>> ':'.join(mylist)
+'192:168:10:22'
+>>> '-'.join(mylist)
+'192-168-10-22'
+>>> 'whatever'.join(mylist)
+'192whatever168whatever10whatever22'
+USER INPUT
+>>> input("Hey please provide your username")
+Hey please provide your usernamebingbong
+'bingbong'
+>>> my_users_input = input("Hey please provide your username: ")
+
+
+
+
+
+Hey please provide your username: bingbong
+  1 #!usr/bin/python3
+  2
+  3 user_input = input("What is your username: ")
+  4
+  5 print("Hello {} wlcome to usmc.mil".format(user_input))
+  EXERCISE 1 - SPLITTING & INDEXING
+  1 #!usr/bin/python3
+  2
+  3
+  4 user_input = input("What is your email: ")
+  5 name_list = user_input.split(".")
+  6 first_name = name_list[0]
+  7
+  8 print("Good morning {}, welcome to usmc.mil".format(first_name))
+  ADDING TO EXERCISE
+  2
+  3
+  4 user_input = input("What is your email: ")
+  5 name_list = user_input.split(".")
+  6 domain_list = user_input.split("@")
+  7 first_name = name_list[0]
+  8 domain = domain_list[1]
+  9
+ 10 print("Good morning {}, welcome to {}".format(first_name, domain))
+  BOOLEAN EXPRESSIONS
+    1 #!/usr/bin/python3
+  2
+  3 usernumber = input("enter a number")
+  4
+  5 if <condition>:
+  6     print("my 1st condition")
+  7
+  8 elif <condition>:
+  9     print("my 2nd condtion")
+ 10
+ 11 else
+ 12     print("Catch all nothing Matched")
+   1 #!/usr/bin/python3
+  2
+  3 usernumber = input("Enter a number: ")
+  4
+  5
+  6 usernumber = int(usernumber)
+  7
+  8
+  9 if usernumber > 50 :
+ 10     print("Number reater than fifty")
+ 11
+ 12 elif usernumber <= 100:
+ 13     print("Number is equal to or less than 100")
+ 14
+ 15 else:
+ 16     print("Catch all nothing matched")
+BOOLEAN EXERCISE
+  1 #!/usr/bin/env python
+  2
+  3 number = input("Pick a number ")
+  4
+  5 if number % 3 == 0 and number % 5 == 0 :
+  6     print("fizzbuzz")
+  7
+  8 elif  number % 3 == 0 :
+  9     print("fizz")
+ 10
+ 11 elif number % 5 == 0 :
+ 12     print("buzz")
+ 13
+ 14 else:
+ 15     print(number)
  
