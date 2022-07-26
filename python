@@ -49,4 +49,14 @@ for x in newlist:
     num = list(range(100)
 number[1:2:3]
 #(1) where it starts, (2)where it stops and and (3)which direction it goes
+               
+  FILE MANIPULATION
+myfile=open('test.txt')
+myfile
+myfile.close()
+               WITH OPEN METHOD
+                with open('test.txt', 'w') as myfile:
+                    myfile.write("my first line")
+               
+               
     
