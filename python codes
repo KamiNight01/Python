@@ -66,3 +66,34 @@ def guess_number(n):
         pass    
     
 guess_number(23)
+
+
+(INVERTED /INVERT)
+
+#!/usr/bin/env python3
+
+def invert(l):
+    '''Inverts the given list
+    Args:
+        l (list): list of strings representing integers in the range [0-255]
+    Returns:
+        None
+    '''
+    count = 0 
+    for i in l:
+        l[count] = str(255 -int(i))
+        count += 1
+    
+def inverted(l):
+
+    newlist = []
+    
+    for i in l:
+        newlist.append(str(255- int(i))
+
+    return newlist
+
+    pass
+
+
+
