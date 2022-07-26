@@ -1,1 +1,16 @@
+#!/usr/bin/python3
+
+num= int(input("what's the tempreature: "))
+
+fc = int(input("press 1 if celsius or 2 if fahrenheit:"))
+
+if fc == 1:
+  F = ( num*1.8 +32)
+  print ("your Temp is:{} Degree Fahrenheit".format(F))
+elif fc == 2:
+  C = (num -32)*.5556
+  print ("your Temp is: {} Degree Fahrenheit ".format(C))
+else:
+    print ("please input a valid option")
+   
 
