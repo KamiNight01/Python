@@ -14,3 +14,34 @@ else:
     print ("please input a valid option")
    
 
+
+  
+  
+  
+(WHILE LOOP )
+  #!/usr/bin/python3
+
+
+count = 0 
+
+while count < 10: 
+    count += 1
+    print("the count is :{}".format(count)) 
+    if count == 5:
+        print ("Count is 5")
+        break
+
+(FOR LOOP)
+
+#!/usr/bin/python3
+
+mylist = list(range(20))
+
+newlist=[]
+
+for num in mylist:
+    print(num*3)
+    newlist.append(num*3)
+
+for x in newlist:
+    print(x/3)
