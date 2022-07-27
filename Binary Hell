@@ -1,0 +1,26 @@
+msg = 'a'
+
+ord(msg) - gets the ordinal value of the message value  char is the opposite of ord 
+
+
+format(ord(msg), '0>8b') 
+- converting ordianal value of  8 bits from  ordinal value to .
+ 
+ to revert it back 
+ int ('01100001', 2)
+ chr(int ('01100001', 2))
+
+READING CONTENTS FROM 1 FILE AND WRITING IT TO ANOTHER
+    with open('myfile.txt''r')as fp0
+      contents = fp0.read()
+    with open('newfile.txt','w') as fp1:
+      fp1.write(contents)
+      BINARY STEGONOGRAPHY
+      ORDINAL VALUE PER CHARACTER - ord(a) = 97
+     format(ord(msg), '0>8b") TURNS INTO BINARY
+     int('01100001',2)  TURNS INTO INTEGER
+     chr(int('01100001',2) TURNS INTO CHARACTERS
+
+ 
+ 
+ 
