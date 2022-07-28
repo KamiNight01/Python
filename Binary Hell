@@ -30,4 +30,10 @@ def add(*args):
     
 print(add(5, 7)
  ''' arg is a variable length arguments in a function'''
+ ```
+def myCar (**kwargs):         **kwargs is a key word argument 
+    print('I drivew a {} {} {}".format(kwargs['year'], kwargs['make'], kwargs['model']))
+    
+my car(year='1993', make='Toyota', model='supra'
 
+```
