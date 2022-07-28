@@ -24,3 +24,10 @@ READING CONTENTS FROM 1 FILE AND WRITING IT TO ANOTHER
 
 
 
+def add(*args):
+    print(args)
+    return (sum(args))
+    
+print(add(5, 7)
+ ''' arg is a variable length arguments in a function'''
+
