@@ -84,4 +84,82 @@ def q6(f0, f1):
     return diffs
 
 
+def q7(lst):
+    '''
+    Return the first duplicate value in the given list.
+    For example, if given [5,7,9,1,3,7,9,5], the returned value should
+    be 7.
+
+    seen = []
+    for i in lst:
+        if i in seen:
+            return i
+        else:
+        seen.append(i)
+    '''
+    seen = set()
+    for i in lst:
+        if i in seen:
+            return i
+        seen.add(i)
+    return -1
+def q8(strng):
+    '''
+    Given a sentence as a string with words being separated by a single space,
+    return the length of the shortest word.
+    
+    smol = 100
+     if i in strng.split():
+        if len(i) < smol:
+        smol = len(i)
+     return smol
+    
+    '''
+
+    short_word =  len(min(strng.split(), key = len))
+    return short_word
+
+def q9(strng):
+    '''
+    Given an alphanumeric string, return the character whose ascii value
+    is that of the integer represenation of all of the digits in the string
+    concatenated in the order in which they appear. For example, given
+    'hell9oworld7', the returned character should be 'a' which has
+    the ascii value of 97.
+    '''
+
+    chars = []
+    for i in strng:
+        if i.isnumeric():
+            chars.append(i)
+
+    return chr(int(''.join(chars)))
+
+
+def q10(arr):
+    '''
+    Given a list of positive integers sorted in ascending order, return
+    the first non-consecutive value. If all values are consecutive, return
+    None. For example, given [1,2,3,4,6,7], the returned value should be 6. 
+
+
+
+    for i in range(0,len(arr)-1):
+        if arr[i+1] - arr[i] != 1:
+            return arr[i+1]
+        
+            
+    '''
+ 
+    prev= arr[0]
+    first = None
+    for num in arr[1:]:
+        if (prev + 1) != num:
+            first = num
+            break
+        prev += 1
+    return first
+ 
+
+
 
