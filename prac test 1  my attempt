@@ -1,0 +1,68 @@
+#!/usr/bin/env python3
+
+def q1(floatstr):
+    newlist = []
+    nt = floatstr.split(",")
+    newlist = nt.append()
+
+
+    '''
+    TLO: 112-SCRPY002, LSA 3,4
+    Given the floatstr, which is a comma separated string of
+    floats, return a list with each of the floats in the 
+    argument as elements in the list.
+    '''
+
+
+    pass
+def q2(*args):
+    sums = 0
+    for i in args:
+        sums = float(sums + i)
+    avg = sums/len(i)
+    return avg
+
+
+    '''
+    TLO: 112-SCRPY006, LSA 3
+    TLO: 112-SCRPY007, LSA 4
+    Given the variable length argument list, return the average
+    of all the arguments as a float
+    '''
+    pass
+
+def q3(lst,n):
+    '''
+    TLO: 112-SCRPY004, LSA 3
+    Given a list (lst) and a number of items (n), return a new 
+    list containing the last n entries in lst.
+    '''
+    d = []
+    d = lst[-n:]
+    return d
+
+
+    pass
+
+def q4(strng):
+    '''
+    TLO: 112-SCRPY004, LSA 1,2
+    TLO: 112-SCRPY006, LSA 3
+    Given an input string, return a list containing the ordinal numbers of 
+    each character in the string in the order found in the input string.
+    
+    '''
+    d = strng.split()
+    return tuple(d)
+
+
+
+def q5(strng):
+    '''
+    TLO: 112-SCRPY002, LSA 1,3
+    TLO: 112-SCRPY004, LSA 2
+    Given an input string, return a tuple with each element in the tuple
+    containing a single word from the input string in order.
+    '''
+
+    pass
