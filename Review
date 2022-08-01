@@ -78,7 +78,10 @@ E-3
  11  ORRRRR
  12 with open(infile, 'r') as fp0:
  13     with open(outfule, 'w') as fp1: 
- 14         fp.writelines(fp.readlines())
-~                                          
-~                                                                                                                                                                                                                                          
-~                                                 
+ 14         fp.writelines(fp.readlines())       (reads from one and writes to other.
+ 
+ 
+with open(infile, 'r') as fp0:
+ 13     with open(outfule, 'w') as fp1: 
+ 14         fp.writelines(fp.readlines(lines[3])      -----writes only the third line
+ 
