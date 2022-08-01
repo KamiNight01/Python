@@ -55,3 +55,30 @@ LCPL
 E-1
 E-2
 E-3
+
+
+
+  1 with open('myfile.txt', 'r') as fp:
+  2     print(fp.readlines()[:3])
+  3     
+~                                                                                                                                                                                                                                          
+~                                                                                                                                                                                                                                          
+~                                                reads the firs t3 lines
+
+   1 infile = 'myfile.txt'
+  2 outfile = 'outfile.txt'
+  3 
+  4 with open(infile, 'r') as fp0:
+  5    lines0 = fp.readlines()
+  6 
+  7 
+  8 with open(outfile, 'w') as fp1:
+  9     fp.writelines(lines0)
+ 10     
+ 11  ORRRRR
+ 12 with open(infile, 'r') as fp0:
+ 13     with open(outfule, 'w') as fp1: 
+ 14         fp.writelines(fp.readlines())
+~                                          
+~                                                                                                                                                                                                                                          
+~                                                 
