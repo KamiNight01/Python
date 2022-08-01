@@ -1,0 +1,57 @@
+Splitting Io
+myIP = '192.168.28.50'
+myIP.split
+
+if int(myIp.split('.')[-1] <+62:
+  print("this ip falls in the range")
+  
+  
+  myoctets 
+  [192','168','28',50'
+  my octets[0:3]
+  [192,168,28]
+  myoctyets[-1]
+  50
+  myoctets [-2:]
+  ['28', '50']
+  mylsit
+  {this is my list 
+  mystring 
+  the quick brown fox jumps over the lazy dog'
+  mystring[::-1]
+  'god yazl eht revo sumuj xof nworb kciuq eht'
+  
+  
+  
+  
+  first = 'aaron'
+>>> middle ='andrew'
+>>> last = 'james'
+>>> domain = 'cornetto'
+>>> '{}.{}.{}@{}.com'.format(first, middle[0], last, domain)
+'aaron.a.james@cornetto.com'
+
+  
+  >>> myDict = []
+>>> myDict = {}
+>>> myDict['Pvt'] = 'E-1'
+>>> myDict['PFC'] = 'E-2'
+>>> myDict['LCPL'] = 'E-3'
+
+  
+  
+  
+    >>> myDict
+{'Pvt': 'E-1', 'PFC': 'E-2', 'LCPL': 'E-3'}
+>>> for i in myDict:
+...     print(i)
+... 
+Pvt
+PFC
+LCPL
+>>> for i in myDict:
+...     print(myDict[i])
+... 
+E-1
+E-2
+E-3
