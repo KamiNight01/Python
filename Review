@@ -83,5 +83,5 @@ E-3
  
 with open(infile, 'r') as fp0:
  13     with open(outfule, 'w') as fp1: 
- 14         fp.writelines(fp.readlines(lines[3])      -----writes only the third line
+ 14         fp1.writelines(fp0.readlines())      -----writes only the third line
  
